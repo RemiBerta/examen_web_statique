@@ -1,12 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    
+    <header>
+        <div class="flex">
+            <img src="./img/logo.png" alt="Logo du site.">
+        </div>
+        <hgroup>
+            <h1>AGENCE IMMO</h1>
+            <p>- Votre partenaire immobilier -</p>
+        </hgroup>
+        <nav>
+            <ul class="flex">
+                <li>
+                    <a href="#">Propriétés</a>
+                </li>
+                <li>
+                    <a href="#">Ventes</a>
+                </li>
+                <li>
+                    <a href="#" class="btn">Contactez-nous</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="flex" id="objectives">
+            <img src="./img/item1.avif" alt="Maison éclairée dans la nuit.">
+            <div>
+                <h2>Notre objectif, votre satisfaction</h2>
+                <p>Nous vous accompagnons dans la recherche de la propriété idéale pour répondre à vos besoins</p>
+            </div>
+        </section>
+        <section class="flex" id="twoItems">
+            <div id="item1">
+                <img src="./img/icone1.svg" alt="Icone check">
+                <p>Trouvez votre maison de rêve</p>
+            </div>
+            <div id="item2">
+                <img src="./img/icone2.svg" alt="Icone">
+                <p>Large séléction de propriétés</p>
+            </div>
+        </section>
+        <section class="flex" id="contactUs">
+            <div>
+                <h2>Agence Immo, votre partenaire immobilier</h2>
+                <div>
+                    <p>Nous vous aidons à trouver la propriété de vos rêves. <br>Contactez-nous dès aujourd'hui.</p>
+                    <a href="#" class="btn">Contactez-nous</a>
+                </div>
+            </div>
+        </section>
+        <section id="discover">
+            <h2>Découvez le marché immobilier</h2>
+            <div class="flex" id="miniDiscover">
+                <ul class="flex">
+                    <li>
+                        <h3>120+</h3>
+                        <p>Propriétés disponibles</p>
+                    </li>
+                    <li>
+                        <h3>98%</h3>
+                        <p>Clients satisfaits</p>
+                    </li>
+                    <li>
+                        <h3>30+</h3>
+                        <p>Années d'expériences</p>
+                    </li>
+                </ul>
+                <div>
+                    <p>Notre agence est dédiées à fournir des solutions <br> adaptées à vos besoins immobiliers.
+                        Contactez-nous pour explorer les meilleures options.</p>
+                    <a href="#" class="btn">EN SAVOIR PLUS</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="flex">
+        <div id="leftFooter">
+            <ul class="flex">
+                <li class="flex">
+                    <h4>ADRESSE</h4>
+                    <p>123 rue de l'immobilier <br>75001 Paris</p>
+                </li>
+                <li class="flex">
+                    <h4>TELEPHONE</h4>
+                    <p>+33 1 23 45 23 45</p>
+                </li>
+                <li class="flex">
+                    <h4>EMAIL</h4>
+                    <p>info@agenceimmo.com</p>
+                </li>
+            </ul>
+        </div>
+        <div id="rightFooter">
+            <img src="./img/logo.png" alt="Logo du site.">
+            <p>Agence Immo est votre partenaire de confiance pour trouver la propriété de vos rêves.
+                Notre équipe dévouée est là pour vous aider a réaliser vos rêves immobiliers.</p>
+        </div>
+    </footer>
 </body>
+
 </html>
